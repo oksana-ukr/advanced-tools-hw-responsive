@@ -5,7 +5,7 @@
 }
 
 body {
-  margin-top: 100px;
+  margin: 100px 0;
 }
 
 h1 {
@@ -90,4 +90,33 @@ p {
 
 .launch-app-link:hover {
   color: #0d58ca;
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 45px;
+  }
+
+  h2 {
+    font-size: 35px;
+  }
+  p {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .launch-app-link {
+    display: block;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .named {
+    text-align: center;
+    font-size: 33px;
+  }
+
+  .hidden-img {
+    display: none;
+  }
 }
